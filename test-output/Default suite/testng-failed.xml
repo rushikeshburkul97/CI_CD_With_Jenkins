@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.POM_TestCases.PushpaAssignmentWickiPediaSourceTC">
+      <class name="org.POM_TestCases.PushPaMovieDetailsFromWickipediaSourceTC">
         <methods>
-          <include name="CloseBrowser"/>
-          <include name="OpenWikiWithPushpa"/>
           <include name="verifyMovieInformation"/>
+          <include name="CloseBrowser"/>
+          <include name="initializeBrowse"/>
         </methods>
-      </class> <!-- org.POM_TestCases.PushpaAssignmentWickiPediaSourceTC -->
+      </class> <!-- org.POM_TestCases.PushPaMovieDetailsFromWickipediaSourceTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
