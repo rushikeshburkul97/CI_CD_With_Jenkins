@@ -33,7 +33,7 @@ public class GenericMethods {
 			driver = new EdgeDriver(option);
 
 		} else {
-			System.out.println("invalid browserr name");
+			System.out.println("invalid browser name");
 		}
 		driver.get(url);
 		return driver;
@@ -55,4 +55,3 @@ public class GenericMethods {
 	}
 }
 
-// new branch rushi 1S
