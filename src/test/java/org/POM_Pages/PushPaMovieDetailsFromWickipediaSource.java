@@ -10,7 +10,7 @@ public class PushPaMovieDetailsFromWickipediaSource {
 
 	// WebElements
 
-	@FindBy(xpath = "/html/body/div/div/div[3]/main/div[2]/div[3]/div/table/tbody/tr[12]/td/div/ul/li")
+	@FindBy(xpath = "//tbody/tr[15]/td[1]/div[1]/ul[1]/li[1]")
 	private WebElement releaseDate;
 
 	@FindBy(xpath = "//td[text()='India']")
